@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B95BB2EC25CBE9D300E7B10C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB2EB25CBE9D300E7B10C /* AppDelegate.swift */; };
+		B95BB2EE25CBE9D300E7B10C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB2ED25CBE9D300E7B10C /* SceneDelegate.swift */; };
+		B95BB2F025CBE9D300E7B10C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB2EF25CBE9D300E7B10C /* ViewController.swift */; };
+		B95BB2F325CBE9D300E7B10C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95BB2F125CBE9D300E7B10C /* Main.storyboard */; };
+		B95BB2F525CBE9D500E7B10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95BB2F425CBE9D500E7B10C /* Assets.xcassets */; };
+		B95BB2F825CBE9D500E7B10C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95BB2F625CBE9D500E7B10C /* LaunchScreen.storyboard */; };
+		B95BB30325CBE9D500E7B10C /* ZSAM_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB30225CBE9D500E7B10C /* ZSAM_PrototypeTests.swift */; };
+		B95BB30E25CBE9D500E7B10C /* ZSAM_PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB30D25CBE9D500E7B10C /* ZSAM_PrototypeUITests.swift */; };
+		B95BB31325CBE9D500E7B10C /* ZSAM_Prototype WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B95BB31225CBE9D500E7B10C /* ZSAM_Prototype WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B95BB31925CBE9D500E7B10C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95BB31725CBE9D500E7B10C /* Interface.storyboard */; };
+		B95BB31B25CBE9D500E7B10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95BB31A25CBE9D500E7B10C /* Assets.xcassets */; };
+		B95BB32225CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B95BB32125CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B95BB32725CBE9D600E7B10C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB32625CBE9D600E7B10C /* InterfaceController.swift */; };
+		B95BB32925CBE9D600E7B10C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB32825CBE9D600E7B10C /* ExtensionDelegate.swift */; };
+		B95BB32B25CBE9D600E7B10C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB32A25CBE9D600E7B10C /* NotificationController.swift */; };
+		B95BB32D25CBE9D600E7B10C /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BB32C25CBE9D600E7B10C /* ComplicationController.swift */; };
+		B95BB32F25CBE9D600E7B10C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95BB32E25CBE9D600E7B10C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95BB2FF25CBE9D500E7B10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95BB2E025CBE9D300E7B10C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95BB2E725CBE9D300E7B10C;
+			remoteInfo = ZSAM_Prototype;
+		};
+		B95BB30A25CBE9D500E7B10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95BB2E025CBE9D300E7B10C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95BB2E725CBE9D300E7B10C;
+			remoteInfo = ZSAM_Prototype;
+		};
+		B95BB31425CBE9D500E7B10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95BB2E025CBE9D300E7B10C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95BB31125CBE9D500E7B10C;
+			remoteInfo = "ZSAM_Prototype WatchKit App";
+		};
+		B95BB32325CBE9D600E7B10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95BB2E025CBE9D300E7B10C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95BB32025CBE9D600E7B10C;
+			remoteInfo = "ZSAM_Prototype WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B95BB33725CBE9D600E7B10C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B95BB32225CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB33B25CBE9D600E7B10C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B95BB31325CBE9D500E7B10C /* ZSAM_Prototype WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B95BB2E825CBE9D300E7B10C /* ZSAM_Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSAM_Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95BB2EB25CBE9D300E7B10C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B95BB2ED25CBE9D300E7B10C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B95BB2EF25CBE9D300E7B10C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B95BB2F225CBE9D300E7B10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B95BB2F425CBE9D500E7B10C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B95BB2F725CBE9D500E7B10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B95BB2F925CBE9D500E7B10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95BB2FE25CBE9D500E7B10C /* ZSAM_PrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSAM_PrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95BB30225CBE9D500E7B10C /* ZSAM_PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSAM_PrototypeTests.swift; sourceTree = "<group>"; };
+		B95BB30425CBE9D500E7B10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95BB30925CBE9D500E7B10C /* ZSAM_PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSAM_PrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95BB30D25CBE9D500E7B10C /* ZSAM_PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSAM_PrototypeUITests.swift; sourceTree = "<group>"; };
+		B95BB30F25CBE9D500E7B10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95BB31225CBE9D500E7B10C /* ZSAM_Prototype WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZSAM_Prototype WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95BB31825CBE9D500E7B10C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B95BB31A25CBE9D500E7B10C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B95BB31C25CBE9D500E7B10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95BB32125CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZSAM_Prototype WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95BB32625CBE9D600E7B10C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B95BB32825CBE9D600E7B10C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B95BB32A25CBE9D600E7B10C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B95BB32C25CBE9D600E7B10C /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		B95BB32E25CBE9D600E7B10C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B95BB33025CBE9D600E7B10C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95BB33125CBE9D600E7B10C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95BB2E525CBE9D300E7B10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB2FB25CBE9D500E7B10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB30625CBE9D500E7B10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB31E25CBE9D600E7B10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95BB2DF25CBE9D300E7B10C = {
+			isa = PBXGroup;
+			children = (
+				B95BB2EA25CBE9D300E7B10C /* ZSAM_Prototype */,
+				B95BB30125CBE9D500E7B10C /* ZSAM_PrototypeTests */,
+				B95BB30C25CBE9D500E7B10C /* ZSAM_PrototypeUITests */,
+				B95BB31625CBE9D500E7B10C /* ZSAM_Prototype WatchKit App */,
+				B95BB32525CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension */,
+				B95BB2E925CBE9D300E7B10C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B95BB2E925CBE9D300E7B10C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95BB2E825CBE9D300E7B10C /* ZSAM_Prototype.app */,
+				B95BB2FE25CBE9D500E7B10C /* ZSAM_PrototypeTests.xctest */,
+				B95BB30925CBE9D500E7B10C /* ZSAM_PrototypeUITests.xctest */,
+				B95BB31225CBE9D500E7B10C /* ZSAM_Prototype WatchKit App.app */,
+				B95BB32125CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95BB2EA25CBE9D300E7B10C /* ZSAM_Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				B95BB2EB25CBE9D300E7B10C /* AppDelegate.swift */,
+				B95BB2ED25CBE9D300E7B10C /* SceneDelegate.swift */,
+				B95BB2EF25CBE9D300E7B10C /* ViewController.swift */,
+				B95BB2F125CBE9D300E7B10C /* Main.storyboard */,
+				B95BB2F425CBE9D500E7B10C /* Assets.xcassets */,
+				B95BB2F625CBE9D500E7B10C /* LaunchScreen.storyboard */,
+				B95BB2F925CBE9D500E7B10C /* Info.plist */,
+			);
+			path = ZSAM_Prototype;
+			sourceTree = "<group>";
+		};
+		B95BB30125CBE9D500E7B10C /* ZSAM_PrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B95BB30225CBE9D500E7B10C /* ZSAM_PrototypeTests.swift */,
+				B95BB30425CBE9D500E7B10C /* Info.plist */,
+			);
+			path = ZSAM_PrototypeTests;
+			sourceTree = "<group>";
+		};
+		B95BB30C25CBE9D500E7B10C /* ZSAM_PrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B95BB30D25CBE9D500E7B10C /* ZSAM_PrototypeUITests.swift */,
+				B95BB30F25CBE9D500E7B10C /* Info.plist */,
+			);
+			path = ZSAM_PrototypeUITests;
+			sourceTree = "<group>";
+		};
+		B95BB31625CBE9D500E7B10C /* ZSAM_Prototype WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B95BB31725CBE9D500E7B10C /* Interface.storyboard */,
+				B95BB31A25CBE9D500E7B10C /* Assets.xcassets */,
+				B95BB31C25CBE9D500E7B10C /* Info.plist */,
+			);
+			path = "ZSAM_Prototype WatchKit App";
+			sourceTree = "<group>";
+		};
+		B95BB32525CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B95BB32625CBE9D600E7B10C /* InterfaceController.swift */,
+				B95BB32825CBE9D600E7B10C /* ExtensionDelegate.swift */,
+				B95BB32A25CBE9D600E7B10C /* NotificationController.swift */,
+				B95BB32C25CBE9D600E7B10C /* ComplicationController.swift */,
+				B95BB32E25CBE9D600E7B10C /* Assets.xcassets */,
+				B95BB33025CBE9D600E7B10C /* Info.plist */,
+				B95BB33125CBE9D600E7B10C /* PushNotificationPayload.apns */,
+			);
+			path = "ZSAM_Prototype WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B95BB2E725CBE9D300E7B10C /* ZSAM_Prototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95BB33C25CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_Prototype" */;
+			buildPhases = (
+				B95BB2E425CBE9D300E7B10C /* Sources */,
+				B95BB2E525CBE9D300E7B10C /* Frameworks */,
+				B95BB2E625CBE9D300E7B10C /* Resources */,
+				B95BB33B25CBE9D600E7B10C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95BB31525CBE9D500E7B10C /* PBXTargetDependency */,
+			);
+			name = ZSAM_Prototype;
+			productName = ZSAM_Prototype;
+			productReference = B95BB2E825CBE9D300E7B10C /* ZSAM_Prototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95BB2FD25CBE9D500E7B10C /* ZSAM_PrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95BB33F25CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_PrototypeTests" */;
+			buildPhases = (
+				B95BB2FA25CBE9D500E7B10C /* Sources */,
+				B95BB2FB25CBE9D500E7B10C /* Frameworks */,
+				B95BB2FC25CBE9D500E7B10C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95BB30025CBE9D500E7B10C /* PBXTargetDependency */,
+			);
+			name = ZSAM_PrototypeTests;
+			productName = ZSAM_PrototypeTests;
+			productReference = B95BB2FE25CBE9D500E7B10C /* ZSAM_PrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B95BB30825CBE9D500E7B10C /* ZSAM_PrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95BB34225CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_PrototypeUITests" */;
+			buildPhases = (
+				B95BB30525CBE9D500E7B10C /* Sources */,
+				B95BB30625CBE9D500E7B10C /* Frameworks */,
+				B95BB30725CBE9D500E7B10C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95BB30B25CBE9D500E7B10C /* PBXTargetDependency */,
+			);
+			name = ZSAM_PrototypeUITests;
+			productName = ZSAM_PrototypeUITests;
+			productReference = B95BB30925CBE9D500E7B10C /* ZSAM_PrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B95BB31125CBE9D500E7B10C /* ZSAM_Prototype WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95BB33825CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_Prototype WatchKit App" */;
+			buildPhases = (
+				B95BB31025CBE9D500E7B10C /* Resources */,
+				B95BB33725CBE9D600E7B10C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95BB32425CBE9D600E7B10C /* PBXTargetDependency */,
+			);
+			name = "ZSAM_Prototype WatchKit App";
+			productName = "ZSAM_Prototype WatchKit App";
+			productReference = B95BB31225CBE9D500E7B10C /* ZSAM_Prototype WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B95BB32025CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95BB33425CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_Prototype WatchKit Extension" */;
+			buildPhases = (
+				B95BB31D25CBE9D600E7B10C /* Sources */,
+				B95BB31E25CBE9D600E7B10C /* Frameworks */,
+				B95BB31F25CBE9D600E7B10C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZSAM_Prototype WatchKit Extension";
+			productName = "ZSAM_Prototype WatchKit Extension";
+			productReference = B95BB32125CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95BB2E025CBE9D300E7B10C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B95BB2E725CBE9D300E7B10C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B95BB2FD25CBE9D500E7B10C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B95BB2E725CBE9D300E7B10C;
+					};
+					B95BB30825CBE9D500E7B10C = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B95BB2E725CBE9D300E7B10C;
+					};
+					B95BB31125CBE9D500E7B10C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B95BB32025CBE9D600E7B10C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B95BB2E325CBE9D300E7B10C /* Build configuration list for PBXProject "ZSAM_Prototype" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95BB2DF25CBE9D300E7B10C;
+			productRefGroup = B95BB2E925CBE9D300E7B10C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B95BB2E725CBE9D300E7B10C /* ZSAM_Prototype */,
+				B95BB2FD25CBE9D500E7B10C /* ZSAM_PrototypeTests */,
+				B95BB30825CBE9D500E7B10C /* ZSAM_PrototypeUITests */,
+				B95BB31125CBE9D500E7B10C /* ZSAM_Prototype WatchKit App */,
+				B95BB32025CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95BB2E625CBE9D300E7B10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95BB2F825CBE9D500E7B10C /* LaunchScreen.storyboard in Resources */,
+				B95BB2F525CBE9D500E7B10C /* Assets.xcassets in Resources */,
+				B95BB2F325CBE9D300E7B10C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB2FC25CBE9D500E7B10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB30725CBE9D500E7B10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB31025CBE9D500E7B10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95BB31B25CBE9D500E7B10C /* Assets.xcassets in Resources */,
+				B95BB31925CBE9D500E7B10C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB31F25CBE9D600E7B10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95BB32F25CBE9D600E7B10C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95BB2E425CBE9D300E7B10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95BB2F025CBE9D300E7B10C /* ViewController.swift in Sources */,
+				B95BB2EC25CBE9D300E7B10C /* AppDelegate.swift in Sources */,
+				B95BB2EE25CBE9D300E7B10C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB2FA25CBE9D500E7B10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95BB30325CBE9D500E7B10C /* ZSAM_PrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB30525CBE9D500E7B10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95BB30E25CBE9D500E7B10C /* ZSAM_PrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95BB31D25CBE9D600E7B10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95BB32B25CBE9D600E7B10C /* NotificationController.swift in Sources */,
+				B95BB32D25CBE9D600E7B10C /* ComplicationController.swift in Sources */,
+				B95BB32925CBE9D600E7B10C /* ExtensionDelegate.swift in Sources */,
+				B95BB32725CBE9D600E7B10C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95BB30025CBE9D500E7B10C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95BB2E725CBE9D300E7B10C /* ZSAM_Prototype */;
+			targetProxy = B95BB2FF25CBE9D500E7B10C /* PBXContainerItemProxy */;
+		};
+		B95BB30B25CBE9D500E7B10C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95BB2E725CBE9D300E7B10C /* ZSAM_Prototype */;
+			targetProxy = B95BB30A25CBE9D500E7B10C /* PBXContainerItemProxy */;
+		};
+		B95BB31525CBE9D500E7B10C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95BB31125CBE9D500E7B10C /* ZSAM_Prototype WatchKit App */;
+			targetProxy = B95BB31425CBE9D500E7B10C /* PBXContainerItemProxy */;
+		};
+		B95BB32425CBE9D600E7B10C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95BB32025CBE9D600E7B10C /* ZSAM_Prototype WatchKit Extension */;
+			targetProxy = B95BB32325CBE9D600E7B10C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95BB2F125CBE9D300E7B10C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95BB2F225CBE9D300E7B10C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B95BB2F625CBE9D500E7B10C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95BB2F725CBE9D500E7B10C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B95BB31725CBE9D500E7B10C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95BB31825CBE9D500E7B10C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95BB33225CBE9D600E7B10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B95BB33325CBE9D600E7B10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B95BB33525CBE9D600E7B10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ZSAM_Prototype WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-Prototype.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		B95BB33625CBE9D600E7B10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ZSAM_Prototype WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-Prototype.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		B95BB33925CBE9D600E7B10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = ZSAM_Prototype_WatchKit_Extension;
+				INFOPLIST_FILE = "ZSAM_Prototype WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-Prototype.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		B95BB33A25CBE9D600E7B10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = ZSAM_Prototype_WatchKit_Extension;
+				INFOPLIST_FILE = "ZSAM_Prototype WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-Prototype.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		B95BB33D25CBE9D600E7B10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSAM_Prototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-Prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B95BB33E25CBE9D600E7B10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSAM_Prototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-Prototype";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95BB34025CBE9D600E7B10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSAM_PrototypeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-PrototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSAM_Prototype.app/ZSAM_Prototype";
+			};
+			name = Debug;
+		};
+		B95BB34125CBE9D600E7B10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSAM_PrototypeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-PrototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSAM_Prototype.app/ZSAM_Prototype";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95BB34325CBE9D600E7B10C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSAM_PrototypeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-PrototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZSAM_Prototype;
+			};
+			name = Debug;
+		};
+		B95BB34425CBE9D600E7B10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZSAM_PrototypeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ECE-397---Senior-Design-II.ZSAM-PrototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZSAM_Prototype;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95BB2E325CBE9D300E7B10C /* Build configuration list for PBXProject "ZSAM_Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95BB33225CBE9D600E7B10C /* Debug */,
+				B95BB33325CBE9D600E7B10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95BB33425CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_Prototype WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95BB33525CBE9D600E7B10C /* Debug */,
+				B95BB33625CBE9D600E7B10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95BB33825CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_Prototype WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95BB33925CBE9D600E7B10C /* Debug */,
+				B95BB33A25CBE9D600E7B10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95BB33C25CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_Prototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95BB33D25CBE9D600E7B10C /* Debug */,
+				B95BB33E25CBE9D600E7B10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95BB33F25CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_PrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95BB34025CBE9D600E7B10C /* Debug */,
+				B95BB34125CBE9D600E7B10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95BB34225CBE9D600E7B10C /* Build configuration list for PBXNativeTarget "ZSAM_PrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95BB34325CBE9D600E7B10C /* Debug */,
+				B95BB34425CBE9D600E7B10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95BB2E025CBE9D300E7B10C /* Project object */;
+}
